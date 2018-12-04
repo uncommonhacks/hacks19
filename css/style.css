@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: "Beef'd";
     src: url("../fonts/Beef'd.ttf");
@@ -6,130 +7,94 @@
 @font-face {
   font-family: "Narita";
   src: url("../fonts/Narita-Monospace.otf") format("opentype");
-
-}
-.register:link, .register:visited, .register:hover, .register:active {
-    color: black;
 }
 
+/* General Structure */
 html, body {
-    padding: 0;
-    margin: 0;
-    color: white;
-    background: black;
-    height: 100%;
-}
-
-#intro {
-  float: right;
-  margin-right: 15px;
-  text-align: right;
-  width: 300px;
-  font-family: 'Narita';
+  padding: 0;
+  margin: 0;
+  color: white;
+  background: black;
+  height: 100%;
 }
 
 .section {
-    position: relative;
-    min-height: 100vh;
+  position: relative;
+  min-height: 100vh;
 }
 
-.pong {
-    background: black;
-    position: relative;
+.left-subsection {
+  width: 50vw;
+  float: left;
 }
 
-/* Pong Animation */
-.ball{
-    position: absolute;
-    top: 60px;
-    left: 0px;
-    width: 30px;
-    height: 30px;
-    background: white;
-    border-radius: 50%;
-    -webkit-animation: play_ball 6s linear infinite;
-    animation: play_ball 6s linear infinite;
+.right-subsection {
+  width: 50vw;
+  float: right;
 }
 
-.left_paddle{
-    position: absolute;
-    width: 25px;
-    height: 120px;
-    top: 0px;
-    background: white;
+/* Intro section */
+#intro-info {
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
 
-    -webkit-animation: left_pong 6s infinite;
-    animation: left_pong 6s infinite;
+  text-align: right;
+  width: 250px;
+  font-family: 'Narita';
 }
 
-.right_paddle{
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    width:25px;
-    height:120px;
-    background:white;
+#intro-section {
+  background: url("../img/rooms/home.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-color: #2D313A;
 
-    -webkit-animation: right_pong 6s infinite;
-    animation: right_pong 6s infinite;
-}
-
-@-webkit-keyframes left_pong {
-    0% {top: 0px;}
-
-    25%{top: -webkit-calc(100% - 120px);}
-    25%{top: calc(100% - 120px);}
-
-    80%{top: -webkit-calc((100% - 120px) / 2);}
-    80%{top: calc((100% - 120px) / 2);}
-
-    100%{top: 0px;}
-}
-
-@-webkit-keyframes right_pong {
-    0% {top: -webkit-calc(100% - 120px);}
-    0% {top: calc(100% - 120px);}
-
-    50%{top: 0px;}
-
-    100%{top: -webkit-calc(100% - 120px);}
-    100%{top: calc(100% - 120px);}
-}
-
-@-webkit-keyframes play_ball{
-    0% {top: 60px; left: 25px;}
-
-    25%{left: -webkit-calc(100% - 55px); top: -webkit-calc(100% / 4);}
-    25%{left: calc(100% - 55px); top: calc(100% / 4);}
-
-    50%{left: -webkit-calc(100% / 2); top: -webkit-calc(100% - 30px);}
-    50%{left: calc(100% / 2); top: calc(100% - 30px);}
-
-    100%{left: 25px;}
-}
-
-.pong-game {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.pong-info {
-    text-align: center;
-    width: 100%;
-    display: block;
-    padding-top: 180px;
-    position: relative;
-    z-index: 2;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  padding-right: 5vw;
 }
 
 .uncommon {
-    text-transform: lowercase;
-    font-size: 250%;
-    display: block;
+  font-size: 200%;
+  display: block;
+  padding-top: 10px;
+
+  margin-bottom: 20px;
 }
+
+#register-link {
+    display: block;
+    text-transform: uppercase;
+    font-size: 130%;
+    color: white;
+    font-weight: 400;
+    background: pink;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    margin: 50px auto 0;
+    width: 200px;
+    padding: 15px 0 17px;
+    text-align: center;
+  
+
+    /* font-family: "Monserrat"; */
+    /* background-color: #4CAF50; */
+    /* border: none; */
+    /* color: white; */
+    /* padding: 15px 32px; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    /* font-size: 16px; */
+}
+
+
+
+/* Images */
+/* .room-img { */
+/*   max-height: 600px; */
+/* } */
 
 .date, .location {
     font-family: 'Montserrat';
@@ -150,19 +115,6 @@ html, body {
     height: 100px;
 }
 
-.register {
-    display: block;
-    text-transform: uppercase;
-    font-size: 130%;
-    color: black;
-    font-weight: 400;
-    background: white;
-    font-family: 'Montserrat';
-    text-decoration: none;
-    margin: 50px auto 0;
-    width: 200px;
-    padding: 15px 0 17px;
-}
 
 @-webkit-keyframes food-dis-1 {
     0% {opacity: 0;}
