@@ -20,11 +20,23 @@ html, body {
 
 
 /* FAQ */
-#faq {
+#faq-info {
   float: right;
-  margin-right: 15vw;
+  margin-right: 10vw;
   width: 300px;
   font-family: "Narita";
+}
+
+#faq-section {
+  background: url("../img/rooms/fantasy.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-color: #172120;
+  background-position: -12vw 0;
+
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  padding-right: 5vw;
 }
 
 .faq-title {
@@ -48,6 +60,10 @@ html, body {
     text-align: left;
     font-size: 80%;
     text-transform: lowercase;
+}
+
+.faq-collapsed {
+    display: none;
 }
 
 .section {
