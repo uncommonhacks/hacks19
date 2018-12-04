@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="322px" height="324px" viewBox="0 0 322 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-messenger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook-messenger" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M161,0 C72.082,0 0,67.157 0,150 C0,197.205 23.412,239.311 60,266.807 L60,324 L114.819,293.727 C129.449,297.801 144.948,300 161,300 C249.918,300 322,232.843 322,150 C322,67.157 249.918,0 161,0 Z M177,202 L136,158 L56,202 L144,108 L186,152 L265,108 L177,202 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
