@@ -102,39 +102,6 @@ html, body {
     height: 100px;
 }
 
-
-@-webkit-keyframes food-dis-1 {
-    0% {opacity: 0;}
-    0.01% {opacity: 0;}
-    1.01% {opacity: 0;}
-    80% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-@-webkit-keyframes food-dis-2 {
-    0% {opacity: 1;}
-    24.6% {opacity: 1;}
-    25.6% {opacity: 0;}
-    95% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-@-webkit-keyframes food-dis-3 {
-    0% {opacity: 1;}
-    48.7% {opacity: 1;}
-    49.7% {opacity: 0;}
-    95% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-@-webkit-keyframes food-dis-4 {
-    0% {opacity: 1;}
-    74% {opacity: 1;}
-    75% {opacity: 0;}
-    95% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
 .email-link:link, .email-link:visited, .email-link:hover, .email-link:active {
     color: white;
     text-decoration: none;
@@ -220,32 +187,6 @@ html, body {
     padding-bottom: 6px;
 }
 
-.type {
-    border: none;
-    background: none;
-    width: 80%;
-    font-family: monospace;
-    color: #00FF00;
-    display: block;
-    text-align: left;
-    font-size: 23px;
-    margin: 0 auto;
-    border-bottom: solid 1px #00FF00;
-    padding-bottom: 5px;
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #00FF00;
-}
-::-moz-placeholder { /* Firefox 19+ */
-    color: #00FF00;
-}
-:-ms-input-placeholder { /* IE 10+ */
-    color: #00FF00;
-}
-
-input:focus {outline:0;}
-
 .top {
     height: 5px;
     width: 3px;
@@ -274,111 +215,6 @@ input:focus {outline:0;}
     height: 20px;
     width: 100px;
     background-color: white;
-}
-
-.bullet {
-    width: 3px;
-    height: 40px;
-    background: white;
-    left: 50%;
-    opacity: 0;
-
-    -webkit-animation: invader-shoot 25s linear infinite;
-    animation: invader-shoot 25s linear infinite;
-
-    position: relative;
-    z-index: 3;
-}
-
-@-webkit-keyframes invader-move {
-    0% {transform: translateX(0px);}
-
-    50% {transform: translateX(-webkit-calc(100vw - 300px));}
-    50% {transform: translateX(calc(100vw - 300px));}
-
-    100% {transform: translateX(0px);}
-}
-
-@-webkit-keyframes invader-shoot {
-    4.99% {opacity: 0;}
-    5% {opacity: 1; transform: translateY(0px);}
-
-    10% {transform: translateY(-1500px); opacity: 1;}
-
-    10.01% {opacity: 0;}
-    14.99% {opacity: 0;}
-    15% {opacity: 1; transform: translateY(0px);}
-
-    20% {transform: translateY(-1500px); opacity: 1;}
-
-    20.01% {opacity: 0;}
-    24.99% {opacity: 0;}
-    25% {opacity: 1; transform: translateY(0px);}
-
-    30% {transform: translateY(-1500px); opacity: 1;}
-
-    30.01% {opacity: 0;}
-    34.99% {opacity: 0;}
-    35% {opacity: 1; transform: translateY(0px);}
-
-    40% {transform: translateY(-1500px); opacity: 1;}
-
-    40.01% {opacity: 0;}
-    44.99% {opacity: 0;}
-    45% {opacity: 1; transform: translateY(0px);}
-
-    50% {transform: translateY(-1500px); opacity: 1;}
-
-    50.01% {opacity: 0;}
-    54.99% {opacity: 0;}
-    55% {opacity: 1; transform: translateY(0px);}
-
-    60% {transform: translateY(-1500px); opacity: 1;}
-
-    60.01% {opacity: 0;}
-    64.99% {opacity: 0;}
-    65% {opacity: 1; transform: translateY(0px);}
-
-    70% {transform: translateY(-1500px); opacity: 1;}
-
-    70.01% {opacity: 0;}
-    74.99% {opacity: 0;}
-    75% {opacity: 1; transform: translateY(0px);}
-
-    80% {transform: translateY(-1500px); opacity: 1;}
-
-    80.01% {opacity: 0;}
-    81.99% {opacity: 0;}
-    82% {opacity: 1; transform: translateY(0px);}
-
-    87% {transform: translateY(-1500px); opacity: 1;}
-
-    87.01% {opacity: 0;}
-    89.99% {opacity: 0;}
-    90% {opacity: 1; transform: translateY(0px);}
-
-    95% {transform: translateY(-1500px); opacity: 1;}
-
-    95.01% {opacity: 0;}
-}
-
-.invaders-game {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-}
-
-.invaders-info {
-    text-align: center;
-    width: 100%;
-    display: block;
-    padding-top: 115px;
-    padding-bottom: 140px;
-    position: relative;
-    z-index: 2;
 }
 
 .sponsors-title {
@@ -478,25 +314,6 @@ input:focus {outline:0;}
     text-decoration: none;
   }
 
-@media (max-height: 778px) {
-    .pong-info {
-        padding-top: 130px;
-    }
-}
-
-@media (max-height: 731px) {
-    .pong-info {
-        padding-top: 100px;
-    }
-}
-
-
-@media (max-height: 693px) {
-    .pong-info {
-        padding-top: 80px;
-    }
-}
-
 @media (max-width: 751px) {
     .uncommon {
         font-size: 240%;
@@ -510,9 +327,6 @@ input:focus {outline:0;}
 }
 
 @media (max-width: 569px) {
-    .pong-info {
-        padding-top: 70px;
-    }
     .uncommon {
         font-size: 200%;
         width: 100%;
