@@ -1,5 +1,5 @@
 let toggleFAQ = function(ind) {
-    if (ind < 1 || ind > 8) {
+    if (ind < 1 || ind > 6) {
 	return;
     }
 
