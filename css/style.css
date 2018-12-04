@@ -66,30 +66,17 @@ html, body {
 #register-link {
     display: block;
     text-transform: uppercase;
-    font-size: 130%;
     color: white;
     font-weight: 400;
     background: pink;
     font-family: 'Montserrat';
     text-decoration: none;
-    margin: 50px auto 0;
-    width: 200px;
-    padding: 15px 0 17px;
-    text-align: center;
-  
-
-    /* font-family: "Monserrat"; */
-    /* background-color: #4CAF50; */
-    /* border: none; */
-    /* color: white; */
-    /* padding: 15px 32px; */
-    /* text-align: center; */
-    /* text-decoration: none; */
-    /* display: inline-block; */
-    /* font-size: 16px; */
+    padding: 10px 0 12px;
+    text-align: right;
+    font-size: 80%;
+    border-radius: 5px;
+    margin-top: 40px;
 }
-
-
 
 /* Images */
 /* .room-img { */
