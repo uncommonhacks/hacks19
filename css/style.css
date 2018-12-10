@@ -56,6 +56,10 @@ html, body {
     font-weight: 200;
 }
 
+.off {
+    display: none;
+}
+
 .year {
     margin-top: 10px;
 }
@@ -146,10 +150,6 @@ html, body {
     .faqq {
         font-weight: 400;
         cursor: pointer;
-    }
-
-    .off {
-        display: none;
     }
 }
 
