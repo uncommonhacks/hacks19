@@ -13,54 +13,27 @@ html, body {
 }
 
 .section {
-    position: relative;
     min-height: 100vh;
 }
 
 .left {
-    box-sizing: border-box;
-    width: 60%;
-    height: 100vh;
-    min-height: 100vh;
-    display: inline-block;
     text-align: center;
-    position: relative;
 }
 
 .right {
-    box-sizing: border-box;
-    padding: 100px;
-    padding-right: 150px;
-    width: 40%;
-    height: 100vh;
-    min-height: 100vh;
-    display: inline-block;
-    float: right;
-    text-align: right;
-    position: relative;
     font-family: 'Montserrat';
     font-weight: 200;
-    overflow-y: scroll;
 }
 
 .nonintro {
     text-align: left;
-    padding: 130px;
-    padding-left: 50px;
-}
-
-.otherinfo {
-    margin-top: 60px;
-    position: relative;
 }
 
 .subinfo {
     display: block;
-    font-size: 1.3em;
 }
 
 .subnonintro {
-    font-size: 1.2em;
     margin-bottom: 20px;
 }
 
@@ -69,11 +42,8 @@ html, body {
 }
 
 .register {
-    position: absolute;
     width: 120px;
-    right: 150px;
     text-align: center;
-    margin-top: 90px;
     padding: 15px 20px;
     background: pink;
     color: black;
@@ -81,31 +51,13 @@ html, body {
     cursor: pointer;
 }
 
-.room {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 80%;
-}
-
 .title {
-    font-size: 4em;
     font-family: 'Cabin Sketch';
     font-weight: 200;
 }
 
 .year {
     margin-top: 10px;
-    font-size: 2.8em;
-}
-
-.faqq {
-    font-weight: 400;
-    cursor: pointer;
-}
-
-.off {
-    display: none;
 }
 
 #intro {
@@ -122,4 +74,123 @@ html, body {
 
 #schedule {
     background-color: #484848;
+}
+
+@media (min-width: 1000px) {
+    .section {
+        position: relative;
+    }
+
+    .left {
+        box-sizing: border-box;
+        width: 60%;
+        height: 100vh;
+        min-height: 100vh;
+        display: inline-block;
+        position: relative;
+    }
+
+    .right {
+        box-sizing: border-box;
+        padding: 100px;
+        padding-right: 150px;
+        width: 40%;
+        height: 100vh;
+        min-height: 100vh;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .nonintro {
+        padding: 130px;
+        padding-left: 50px;
+    }
+
+    .otherinfo {
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .subinfo {
+        font-size: 1.3em;
+    }
+
+    .subnonintro {
+        font-size: 1.2em;
+    }
+
+    .register {
+        position: absolute;
+        right: 150px;
+        margin-top: 90px;
+    }
+
+    .room {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80%;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .year {
+        font-size: 2.8em;
+    }
+
+    .faqq {
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .off {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left {
+        padding-top: 30px;
+    }
+
+    .right {
+        max-width: 75vw;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .otherinfo {
+        margin-top: 30px;
+    }
+
+    .register {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .room {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .year {
+        font-size: 1.6em;
+    }
 }
