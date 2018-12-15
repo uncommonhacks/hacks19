@@ -1,11 +1,9 @@
-$(document).ready(function(){
-    $('.faqq').click(function() {
-        if ($(this).next().css("display") == "block") {
-            $(".off").css("display", "none");
-        }
-        else {
-            $(".off").css("display", "none");
-            $(this).next().css("display", "block");
-        }
-    });
- });
+let displayAnswer = function(e) {
+  let next = e.nextElementSibling;
+  if (next.style.display == "block") {
+    next.style.display = "none";
+  }
+  else {
+    next.style.display = "block";
+  }
+};
