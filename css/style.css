@@ -1,204 +1,168 @@
 /* General Structure */
-html, body {
-  padding: 0;
-  margin: 0;
-  color: white;
-  background: black;
-  height: 100%;
+ html, body {
+     padding: 0;
+     margin: 0;
+     color: white;
+     background: black;
+     height: 100%;
 }
-
-.email-link {
-    color: white;
-    text-decoration: underline;
+ .email-link {
+     color: white;
+     text-decoration: underline;
 }
-
-.section {
-    min-height: 100vh;
+ .section {
+     min-height: 100vh;
 }
-
-.left {
-    text-align: center;
+ .left {
+     text-align: center;
 }
-
-.right {
-    font-family: 'Montserrat';
-    font-weight: 200;
+ .right {
+     font-family: 'Montserrat';
+     font-weight: 200;
 }
-
-.nonintro {
-    text-align: left;
+ .nonintro {
+     text-align: left;
 }
-
-.subinfo {
-    display: block;
+ .subinfo {
+     display: block;
 }
-
-.subnonintro {
-    margin-bottom: 20px;
+ .subnonintro {
+     margin-bottom: 20px;
 }
-
-.scheduleinfo {
-    margin-bottom: 5px;
+ .scheduleinfo {
+     margin-bottom: 5px;
 }
-
-.register {
-    width: 278px;
-    text-align: center;
-    padding: 15px 0;
-    background: pink;
-    color: black;
-    font-weight: 600;
-    cursor: pointer;
+ .register {
+     width: 278px;
+     text-align: center;
+     padding: 15px 0;
+     background: pink;
+     color: black;
+     font-weight: 600;
+     cursor: pointer;
 }
-
-.title {
-    font-family: 'Share Tech Mono';
+ .title {
+     font-family: 'Share Tech Mono';
 }
-
-.off {
-    display: none;
+ .off {
+     display: none;
 }
-
-.year {
-    margin-top: 10px;
+ .year {
+     margin-top: 10px;
 }
-
-#intro {
-    background-color: #2D313A;
+ #intro {
+     background-color: #2D313A;
 }
-
-#about {
-    background-color: #172120;
+ #about {
+     background-color: #172120;
 }
-
-#faq {
-    background-color: #222028;
+ #faq {
+     background-color: #222028;
 }
-
-#schedule {
-    background-color: #484848;
+ #schedule {
+     background-color: #484848;
 }
-
-@media (min-width: 950px) {
-    .section {
-        position: relative;
+ @media (min-width: 950px) {
+     .section {
+         position: relative;
     }
-
-    .left {
-        box-sizing: border-box;
-        width: calc(80vw - 278px);
-        height: 100vh;
-        min-height: 100vh;
-        display: inline-block;
-        position: relative;
+     .left {
+         box-sizing: border-box;
+         width: calc(80vw - 278px);
+         height: 100vh;
+         min-height: 100vh;
+         display: inline-block;
+         position: relative;
     }
-
-    .right {
-        box-sizing: border-box;
-        padding: 100px;
-        padding-right: 150px;
-        width: calc(20vw + 278px);
-        height: 100vh;
-        min-height: 100vh;
-        display: inline-block;
-        float: right;
-        text-align: right;
-        position: relative;
-        overflow-y: scroll;
+     .right {
+         box-sizing: border-box;
+         padding: 100px;
+         padding-right: 150px;
+         width: calc(20vw + 278px);
+         height: 100vh;
+         min-height: 100vh;
+         display: inline-block;
+         float: right;
+         text-align: right;
+         position: relative;
+         overflow-y: scroll;
     }
-
-    .nonintro {
-        padding: 130px;
-        padding-left: 50px;
+     .nonintro {
+         padding: 130px;
+         padding-left: 50px;
     }
-
-    .otherinfo {
-        margin-top: 60px;
-        position: relative;
+     .otherinfo {
+         margin-top: 60px;
+         position: relative;
     }
-
-    .subinfo {
-        font-size: 1.3em;
+     .subinfo {
+         font-size: 1.3em;
     }
-
-    .subnonintro {
-        font-size: 1.2em;
+     .subnonintro {
+         font-size: 1.2em;
     }
-
-    .register {
-        margin-top: 90px;
+     .register {
+         margin-top: 90px;
     }
-
-    .room {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 40vw;
+     .room {
+         position: relative;
+         top: 50%;
+         transform: translateY(-50%);
+         width: 40vw;
     }
-
-    .title {
-        font-size: 4em;
+     .title {
+         font-size: 4em;
     }
-
-    .title-align {
-      width: 278px;
+     .title-align {
+         width: 278px;
     }
-
-    .year {
-        font-size: 2.8em;
+     .year {
+         font-size: 2.8em;
     }
-
-    .faqq {
-        font-weight: 400;
-        cursor: pointer;
+     .faqq {
+         font-weight: 400;
+         cursor: pointer;
     }
 }
-
-@media (max-width: 950px) {
-    .section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+ @media (max-width: 950px) {
+     .section {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         text-align: center;
     }
-
-    .left {
-        width: 100vw;
-        padding-top: 30px;
+     .left {
+         width: 100vw;
+         padding-top: 30px;
     }
-
-    .right {
-        width: 100vw;
-        margin: 0 auto;
-        padding-bottom: 30px;
+     .right {
+         width: 100vw;
+         margin: 0 auto;
+         padding-bottom: 30px;
     }
-
-    .otherinfo {
-        margin-top: 30px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+     .otherinfo {
+         margin-top: 30px;
+         width: 80%;
+         margin-left: auto;
+         margin-right: auto;
     }
-
-    .register {
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
+     .register {
+         margin-top: 30px;
+         margin-left: auto;
+         margin-right: auto;
     }
-
-    .room {
-        max-width: 300px;
-        max-height: 300px;
+     .room {
+         max-width: 300px;
+         max-height: 300px;
     }
-
-    .title {
-        font-size: 2em;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+     .title {
+         font-size: 2em;
+         width: 80%;
+         margin-left: auto;
+         margin-right: auto;
     }
-
-    .year {
-        font-size: 1.6em;
+     .year {
+         font-size: 1.6em;
     }
 }
+
