@@ -75,67 +75,23 @@ html, body {
 @media (min-width: 951px) {
   .left {
     padding-right: 16px;
-    height: 100%;
   }
   .right {
     padding-left: 16px;
   }
-/*   .section { */
-/*     position: relative; */
-/*     overflow-y: auto; */
-/*   } */
-/*   .left { */
-/*     box-sizing: border-box; */
-/*     width: calc(80vw - 278px); */
-/*     height: 100vh; */
-/*     min-height: 100vh; */
-/*     display: flex; */
-/*     align-items: flex-start; */
-/*     justify-content: space-around; */
-/*     position: relative; */
-/*   } */
-/*   .right { */
-/*     box-sizing: border-box; */
-/*     padding: 100px; */
-/*     padding-right: 150px; */
-/*     width: calc(20vw + 278px); */
-/*     min-height: 100vh; */
-/*     display: inline-block; */
-/*     float: right; */
-/*     text-align: right; */
-/*     position: relative; */
-/*   } */
-/*   .nonintro { */
-/*     padding: 130px; */
-/*     padding-left: 50px; */
-/*   } */
-/*   .otherinfo { */
-/*     margin-top: 60px; */
-/*     position: relative; */
-/*   } */
   .subinfo {
     font-size: 1.3em;
   }
   .subnonintro {
     font-size: 1.2em;
   }
-/*   .register { */
-/*     margin-top: 90px; */
-/*   } */
   .room {
-    position: sticky;
-    top: 50%;
-/*     bottom: 20px; */
-/*     align-self: flex-end; */
-/*     /1* transform: translateY(-50%); *1/ */
-/*     width: 40vw; */
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .title {
     font-size: 4em;
   }
-/*   .title-align { */
-/*     width: 278px; */
-/*   } */
   .year {
     font-size: 2.8em;
   }
@@ -151,41 +107,14 @@ html, body {
       "content";
     grid-template-rows: 50vh auto;
     grid-template-columns: 100vw;
-/*     display: flex; */
-/*     flex-direction: column; */
-/*     justify-content: center; */
-/*     text-align: center; */
   }
   .left {
     width: 100vw;
-/*     padding-top: 30px; */
   }
   .right {
     width: 100vw;
-/*     margin: 0 auto; */
-/*     padding-bottom: 30px; */
   }
-/*   .otherinfo { */
-/*     margin-top: 30px; */
-/*     width: 80%; */
-/*     margin-left: auto; */
-/*     margin-right: auto; */
-/*   } */
-/*   .register { */
-/*     margin-top: 30px; */
-/*     margin-left: auto; */
-/*     margin-right: auto; */
-/*   } */
   .room {
     max-width: 300px;
   }
-/*   .title { */
-/*     font-size: 2em; */
-/*     width: 80%; */
-/*     margin-left: auto; */
-/*     margin-right: auto; */
-/*   } */
-/*   .year { */
-/*     font-size: 1.6em; */
-/*   } */
 }
