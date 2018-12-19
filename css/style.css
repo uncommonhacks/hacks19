@@ -77,10 +77,13 @@ html, body {
     padding-right: 16px;
   }
   .right {
-    padding-left: 16px;
+    padding: 100px 70px;
   }
   .subinfo {
     font-size: 1.3em;
+  }
+  .otherinfo {
+    margin-top: 60px;
   }
   .subnonintro {
     font-size: 1.2em;
@@ -97,6 +100,9 @@ html, body {
   }
   .faqq {
     font-weight: 400;
+  }
+  .register {
+    margin-top: 90px;
   }
 }
 @media (max-width: 950px) {
