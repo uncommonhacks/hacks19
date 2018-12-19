@@ -75,6 +75,7 @@ html, body {
 @media (min-width: 951px) {
   .left {
     padding-right: 16px;
+    padding-left: 16px;
   }
   .right {
     padding: 100px 70px;
@@ -119,6 +120,30 @@ html, body {
   }
   .right {
     width: 100vw;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .otherinfo {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-size: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+  }
+  .year {
+    font-size: 1.6em;
+  }
+  .register {
+    margin: 30px auto 0 auto;
   }
   .room {
     max-width: 300px;
