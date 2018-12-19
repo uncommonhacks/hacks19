@@ -78,8 +78,10 @@ html, body {
     padding-left: 16px;
   }
   .right {
-    padding-right: 110px;
+    padding-right: 100px;
     padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .subinfo {
     font-size: 1.3em;
