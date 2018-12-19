@@ -28,6 +28,7 @@ let updateSticky = function () {
       let offset = window.innerHeight/2 - img.clientHeight/2 + "px";
 
       left.style.position = "sticky";
+      left.style.position = "-webkit-sticky";
       left.style["padding-top"] = offset;
       left.style["padding-bottom"] = offset;
       left.style["margin-bottom"] = "auto";
