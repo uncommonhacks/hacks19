@@ -5,7 +5,6 @@ let updateSticky = function () {
     for (let i = 0; i < lefts.length; i++) {
       let left = lefts[i];
 
-      // TODO match the styles applied in responsive mode
       left.style.position = "relative";
       left.style["padding-top"] = 0;
       left.style["padding-bottom"] = 0;
@@ -19,12 +18,20 @@ let updateSticky = function () {
   let sections = document.getElementsByClassName("section");
   for (let i = 0; i < sections.length; i++) {
     let section = sections.item(i);
-    let left = section.children[0];
-    let right = section.children[1];
+
+    let left = null;
+    let right = null;
+    if (i % 2 == 0) {
+      left = section.children[0];
+      right = section.children[1];
+    } else {
+      left = section.children[1];
+      right = section.children[0];
+    }
 
     // Use sticky to get the images to stay centered
     if (right.clientHeight > window.innerHeight) {
-      let img = section.children[0].children[0];
+      let img = left.children[0];
       let offset = window.innerHeight/2 - img.clientHeight/2 + "px";
 
       left.style.position = "sticky";

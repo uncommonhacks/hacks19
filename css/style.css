@@ -10,12 +10,19 @@ html, body {
   color: white;
   text-decoration: underline;
 }
-.section {
+.section-left {
   min-height: 100vh;
   display: grid;
   grid-template-areas:
     "room content";
   grid-template-columns: calc(25vw + 278px) calc(75vw - 278px);
+}
+.section-right {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "room content";
+  grid-template-columns: calc(75vw - 278px) calc(25vw + 278px);
 }
 .left {
   text-align: center;
