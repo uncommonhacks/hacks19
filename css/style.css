@@ -101,6 +101,41 @@ html, body {
     padding-right: 16px;
     padding-left: 16px;
   }
+  #intro {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "room content";
+    grid-template-columns: calc(35vw + 278px) calc(65vw - 278px);
+  }
+  #schedule {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "room content";
+    grid-template-columns: calc(65vw - 278px) calc(35vw + 278px);
+  }
+  #intro .room {
+    width: 80%;
+  }
+  #schedule .room {
+    width: 90%;
+  }
+  #schedule .left {
+    padding-right: 32px;
+  }
+  #intro .right {
+    padding-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #schedule .right {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .right {
     padding-right: 70px;
     padding-left: 50px;
