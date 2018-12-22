@@ -29,7 +29,8 @@ html, body {
   align-self: center;
 }
 .room {
-  width: 100%;
+  max-width: 80%;
+  max-height: 90vh;
 }
 .right {
   font-family: 'Lato';
@@ -101,6 +102,9 @@ html, body {
   padding-bottom: 20px;
 }
 @media (min-width: 951px) {
+  .room-mobile {
+    display: none;
+  }
   .left {
     padding-right: 16px;
     padding-left: 16px;
@@ -119,11 +123,9 @@ html, body {
       "room content";
     grid-template-columns: calc(65vw - 278px) calc(35vw + 278px);
   }
-  #intro .room {
-    width: 80%;
-  }
   #schedule .room {
     height: 100%;
+    width: auto;
   }
   #schedule .left {
     padding-right: 32px;
@@ -154,6 +156,7 @@ html, body {
   }
   .otherinfo {
     margin-top: 20px;
+    max-width: 50vw;
   }
   .subnonintro {
     font-size: 1.2em;
@@ -177,6 +180,9 @@ html, body {
   }
 }
 @media (max-width: 950px) {
+  .room-desktop {
+    display: none;
+  }
   .section {
     display: grid;
     grid-template-areas:
@@ -217,7 +223,7 @@ html, body {
   #register {
     margin: 20px auto 0 auto;
   }
-  .room {
+  .room-mobile {
     max-width: 300px;
   }
   #tagline {
