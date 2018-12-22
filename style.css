@@ -128,12 +128,14 @@ html, body {
   #schedule .left {
     padding-right: 32px;
   }
-  #intro .right {
-    padding-right: 6vw;
-    padding-left: 4vw;
+  .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  #intro .right {
+    padding-right: 6vw;
+    padding-left: 4vw;
   }
   #schedule .right {
     padding-left: 30px;
