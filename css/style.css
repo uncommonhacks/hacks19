@@ -14,14 +14,14 @@ html, body {
   min-height: 100vh;
   display: grid;
   grid-template-areas:
-    "room content";
+  "room content";
   grid-template-columns: calc(25vw + 278px) calc(75vw - 278px);
 }
 .section-right {
   min-height: 100vh;
   display: grid;
   grid-template-areas:
-    "room content";
+  "room content";
   grid-template-columns: calc(75vw - 278px) calc(25vw + 278px);
 }
 .left {
@@ -105,14 +105,14 @@ html, body {
     min-height: 100vh;
     display: grid;
     grid-template-areas:
-      "room content";
+    "room content";
     grid-template-columns: calc(35vw + 278px) calc(65vw - 278px);
   }
   #schedule {
     min-height: 100vh;
     display: grid;
     grid-template-areas:
-      "room content";
+    "room content";
     grid-template-columns: calc(65vw - 278px) calc(35vw + 278px);
   }
   #intro .room {
@@ -169,8 +169,8 @@ html, body {
   .section {
     display: grid;
     grid-template-areas:
-      "room"
-      "content";
+    "room"
+    "content";
     grid-template-rows: 50vh auto;
     grid-template-columns: 100vw;
   }
