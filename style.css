@@ -123,7 +123,7 @@ html, body {
     width: 80%;
   }
   #schedule .room {
-    width: 90%;
+    height: 100%;
   }
   #schedule .left {
     padding-right: 32px;
