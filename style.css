@@ -102,9 +102,6 @@ html, body {
   padding-bottom: 20px;
 }
 @media (min-width: 951px) {
-  .room-mobile {
-    display: none;
-  }
   .left {
     padding-right: 16px;
     padding-left: 16px;
@@ -180,9 +177,6 @@ html, body {
   }
 }
 @media (max-width: 950px) {
-  .room-desktop {
-    display: none;
-  }
   .section {
     display: grid;
     grid-template-areas:
@@ -223,8 +217,8 @@ html, body {
   #register {
     margin: 20px auto 0 auto;
   }
-  .room-mobile {
-    max-width: 300px;
+  .room {
+    max-height: 50vh;
   }
   #tagline {
     text-align: center;
