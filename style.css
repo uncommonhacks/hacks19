@@ -10,6 +10,9 @@ html, body {
   color: white;
   text-decoration: underline;
 }
+#reg-link {
+  text-decoration: none;
+}
 .section-left {
   min-height: 100vh;
   display: grid;
