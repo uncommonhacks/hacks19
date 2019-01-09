@@ -13,14 +13,15 @@ html, body {
 #reg-link {
   text-decoration: none;
 }
-.section-left {
+.section {
   min-height: 100vh;
+}
+.section-left {
   display: grid;
   grid-template-areas: "room content";
   grid-template-columns: calc(25vw + 278px) calc(75vw - 278px);
 }
 .section-right {
-  min-height: 100vh;
   display: grid;
   grid-template-areas:
   "room content";
@@ -75,9 +76,6 @@ html, body {
 }
 #about {
   background-color: #172120;
-}
-#about > .right {
-  line-height: 1.7;
 }
 #faq {
   background-color: #222028;
