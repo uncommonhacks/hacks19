@@ -5,6 +5,9 @@ html, body {
   background: black;
   height: 100%;
 }
+a {
+  text-decoration: none;
+}
 .email-link {
   color: white;
   text-decoration: underline;
